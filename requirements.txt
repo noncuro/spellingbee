@@ -2,3 +2,4 @@ tqdm
 fastapi
 pydantic
 uvicorn
+pandas

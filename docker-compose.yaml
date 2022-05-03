@@ -4,5 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+    volumes:
+      - ./app :/code/app
     ports:
       - 8000:8000
