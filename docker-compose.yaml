@@ -1,0 +1,8 @@
+services:
+  serve-dev:
+    container_name: spellingbee
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - 8000:8000
